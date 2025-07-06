@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<title>Fluid Container</title>
+<style>
+    .col {
+        text-align: center;
+        border: 2px solid #042275c2;
+        padding: 10px;  
+    }
+    .container-fluid {
+        background-color: #f8f9fa;
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+    <h3>Fluid Container with Equal Width Columns</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">Column 1</div>
+            <div class="col">Column 2</div>
+            <div class="col">Column 3</div>
+        </div>
+    </div>
+    <h3>Fluid Container with Nested Rows</h3>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">Nested Column 1</div>
+                    <div class="col">Nested Column 2</div>
+                </div>
+            </div>
+            <div class="col">Column 2</div>
+        </div>
+        <h2 containers specified by the Bootstrap grid system. The first section demonstrates a fluid container with equal-width columns, while the second section shows a fluid container with nested rows and columns.</h2>
+    </div>
