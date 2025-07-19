@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bootstrap 4 Carousel</title>
+<!-- Bootstrap 4 CSS -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery (required by Bootstrap 4) -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+
+<!-- Bootstrap 4 JS Bundle -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+        <style>
+            body {
+                background-color: #f8f9fa;
+            }
+            .carousel-item img {
+                width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h2 class="text-center">Bootstrap  Carousel </h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Gojo.jpeg" width="100%" height="400" alt="Gojo Satoru">
+                    <div class="carousel-caption">
+                        <h3>Gojo Satoru</h3>
+                        <p>Powerful Jujutsu Sorcerer</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Itadori.jpeg" width="100%" height="400" alt="Yuji Itadori">
+                    <div class="carousel-caption">
+                        <h3>Yuji Itadori</h3>
+                        <p>Determined Jujutsu Sorcerer</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Nobara.jpeg" width="100%" height="400" alt="Nobara Kugisaki">
+                    <div class="carousel-caption">
+                        <h3>Nobara Kugisaki</h3>
+                        <p>Fearless Jujutsu Sorcerer</p>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+        </div>
+
+    </body>
+</html>
